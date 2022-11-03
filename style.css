@@ -1,0 +1,117 @@
+body {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #222;
+  color: white;
+  font-family: verdana;
+/*   background-image: url(images/fast-food.jpeg) */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  text-shadow: 2px 2px 5px #111;
+}
+#subtitle {
+  font-style: italic;
+  color: darkgray;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#titan{
+  color: #1c87c9;
+}
+
+.backwards {
+  color: #1c87c9;
+  display: inline-block;
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+main {
+  width: 650px;
+  padding: 15px;
+  margin: 0 auto;
+  background: #323230;
+  border-radius: 50px;
+  display: ;
+}
+
+#emojibar {
+  width: 100%;
+}
+
+.emojiFilter {
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #1c87c9;
+  border-radius: 50%;
+}
+.emojiFilter:hover {
+  background-color: white;
+}
+
+#fast-foodR {
+  display: block;
+}
+
+#clear {
+  color: yellow;
+  background: #1c87c9;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius:10px;
+  display:inline-block;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#clear:hover {
+  color: royalblue;
+  background: white;
+}
+
+#searchInput {
+  position: relative;
+  padding-right: 15px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+
+#fast-foodR {
+  display: block;
+  padding: 10px;
+  color: black;
+}
+
+#fast-foodR .fast-foodN {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 10px;
+  list-style-type: none;
+  border-radius: 5px;
+}
+#results {
+  box-shadow: 2px 2px 5px #111;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  
+}
